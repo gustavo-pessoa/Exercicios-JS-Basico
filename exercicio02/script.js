@@ -14,9 +14,11 @@ function obtemNumeros() {
 function ordenarLista(lista) {
     
     var listaOrdenada = lista.sort((a,b)=>a-b)
+    let res = "";
     for (let num of listaOrdenada) {
-       console.log(num)
+       console.log(num);
+       res = res + " " + num;
     }
-   
+    alert(res);
 }
     
